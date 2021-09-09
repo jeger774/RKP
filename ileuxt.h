@@ -14,7 +14,7 @@
 
 #define BUFSIZE 1024                 // Max length of buffer
 #define PORT_NO 80                  // The port on which the server is listening
-#define ADDRESS "193.6.135.162"    // Target address
+#define ADDRESS "127.0.0.1"    // Target address
 int Post(char* neptunID, char* message, int numCh)
 {
     int s;                            // socket ID
